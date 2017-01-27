@@ -1,19 +1,22 @@
 //We're in a job interview. Answer the following questions (try to not look at your notes unless you have to).
   // 1) What is the purpose of the 'this keyword'?
 
-      //Answer
+      //Answer: the 'this' keyword is like a pronoun that points to the object values we want when using 'this'
 
   // 2) What are the four rules that govern what the 'this keyword' is bound to and describe each?
 
-      //Answer
+      //Answer: implicit is when the value to the left of the dot determines what 'this' refers to
+      // explicit is call, bind and apply --> which explicit says what 'this' is referring to
+      // new is referring to constructor functions and the 'this' keyword refers to the 'new' object you're creating with your constructor
+      // default is the window object / global
 
   // 3) What is the difference between call and apply?
 
-      //Answer
+      //Answer call and apply both explicity assign 'this' to the first object in the parentheses; but apply passes in parameters as an array
 
   // 4) What does .bind do?
 
-      //Answer
+      //Answer it binds a specific function to an object to use with 'this'; but it doesn't call that function right away
 
 
 //Next Problem
